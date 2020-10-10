@@ -1,0 +1,45 @@
+﻿  Multi.cpp
+c:\users\ivan\desktop\secret directory\maltsev\my progs\multy\my_functions.h(89): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\ivan\desktop\secret directory\maltsev\my progs\multy\my_functions.h(91): warning C4018: <: несоответствие типов со знаком и без знака
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(4584): warning C4244: аргумент: преобразование "const double" в "const int", возможна потеря данных
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(4625): note: выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::set_union<_InIt1,_InIt2,_OutIt,std::less<void>>(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt,_Pr)"
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<int,std::allocator<int>>>,
+              _InIt1=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _InIt2=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Pr=std::less<void>
+          ]
+  c:\users\ivan\desktop\secret directory\maltsev\my progs\multy\my_functions.h(144): note: выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::set_union<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::back_insert_iterator<std::vector<int,std::allocator<int>>>>(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt)"
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<int,std::allocator<int>>>,
+              _Ty=double,
+              _InIt1=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _InIt2=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(4589): warning C4244: аргумент: преобразование "const double" в "const int", возможна потеря данных
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(4594): warning C4244: аргумент: преобразование "const double" в "const int", возможна потеря данных
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xutility(2414): warning C4244: аргумент: преобразование "const double" в "const int", возможна потеря данных
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xutility(2434): note: выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)"
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<int,std::allocator<int>>>,
+              _InIt=const double *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(4600): note: выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::_Copy_unchecked<const double*,_Iter>(_InIt,_InIt,_OutIt)"
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<int,std::allocator<int>>>,
+              _Iter=std::back_insert_iterator<std::vector<int,std::allocator<int>>>,
+              _InIt=const double *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(4625): note: выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt std::set_union<_InIt1,_InIt2,_OutIt,std::less<void>>(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt,_Pr)"
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<int,std::allocator<int>>>,
+              _InIt1=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _InIt2=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Pr=std::less<void>
+          ]
+  multy.vcxproj -> C:\Users\Ivan\Desktop\Secret Directory\Maltsev\My Progs\temp\Debug\multi.exe
